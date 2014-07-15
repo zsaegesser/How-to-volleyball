@@ -76,6 +76,10 @@ html, body {
   border-bottom: 2px solid red;
 }
 
+.passing .passinga {
+  border-bottom: 2px solid red;
+}
+
 body {
   padding-top: 30px;
   position: relative;
@@ -156,6 +160,10 @@ section.picture {
 
 .setting section.picture {
   background-image: url(vbsetting.jpg);
+}
+
+.passing section.picture {
+  background-image: url(vbpassing.jpg);
 }
 
 .hitting .armhover {
@@ -262,6 +270,60 @@ section.picture {
 }
 
 .setting .circleeyes {
+  top: 40%;
+  left: 55%;
+}
+
+.passing .handshover {
+  z-index: 20;
+  position: absolute;
+  top: 22%;
+  left: 44%;
+  height: 15%;
+  width: 15%;
+  border: 2px solid black;
+}
+
+.passing .shouldershover {
+  z-index: 20;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  height: 13%;
+  width: 16%;
+  border: 2px solid black;
+}
+
+.passing .eyeshover {
+  z-index: 20;
+  position: absolute;
+  top: 38%;
+  left: 40%;
+  height: 9%;
+  width: 16%;
+  border: 2px solid black;
+}
+
+.passing .picture .info {
+  position: absolute;
+  left: 26%;
+  top: 35%;
+  height: auto;
+  width: 15%;
+  border: 2px solid black;
+}
+
+.passing .circlehands {
+  top: 20%;
+  left: 30%;
+}
+
+.passing .circleshoulders {
+  top: 37%;
+  left: 75%;
+}
+
+.passing .circleeyes {
   top: 40%;
   left: 55%;
 }

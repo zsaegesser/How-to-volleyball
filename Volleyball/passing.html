@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+    <title>Volleyball is Life</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="reset.css" media="all">
+    <link rel="stylesheet" type="text/css" href="pagescreen.css" media="all">
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
+</head>
+<body class="passing">
+    <header>
+        <a class="vblife" href="index.html">Volleyball is Life</a>
+        <a class="passinga" href="passing.html">Passing</a>
+        <a class="settinga" href="setting.html">Setting</a>
+        <a href="hitting.html">Hitting</a>
+    </header>
+    <div class="title">
+        <h1>How-to Pass</h1>
+    </div>
+    <section class="picture">
+        <div class="info infowrist">
+           <p></p>
+        </div>        
+        <div class="info infobody">
+            
+        </div>
+        <div class="info infoknees">
+           
+        </div>
+
+    </section>
+    <div class="handshover">
+        <div class="circle circlewrist"></div>
+    </div>
+    <div class="shouldershover">
+        <div class="circle circlebody"></div>
+    </div>
+    <div class="eyeshover">
+        <div class="circle circleknees"></div>
+    </div>
+
+    <script>
+    $(function() {
+
+        $('.handshover').hover(function() {
+            $('.circlewrist').toggleClass('whenhover');
+        });
+        $('.eyeshover').hover(function() {
+            $('.circleknees').toggleClass('whenhover');
+        });        
+        $('.shouldershover').hover(function() {
+            $('.circlebody').toggleClass('whenhover');
+        });
+
+        $('.handshover').click(function() {
+            $('.infowrist').addClass('whenclick');
+            $('.infobody, .infoknees').removeClass('whenclick');
+        });
+        $('.shouldershover').click(function() {
+            $('.infobody').addClass('whenclick');
+            $('.infowrist, .infoknees').removeClass('whenclick');
+        });
+        $('.eyeshover').click(function() {
+            $('.infoknees').addClass('whenclick');
+            $('.infowrist, .infobody').removeClass('whenclick');
+        });
+    });
+
+
+    </script>
+
+
+</body>
+</html>
