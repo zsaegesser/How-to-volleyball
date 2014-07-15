@@ -173,7 +173,8 @@ section.picture {
   left: 45%;
   height: 18%;
   width: 8%;
-  border: 2px solid black;
+  /*  	border: 2px solid black;
+  */
 }
 
 .hitting .shoulderhover {
@@ -183,7 +184,8 @@ section.picture {
   left: 50%;
   height: 18%;
   width: 10%;
-  border: 2px solid black;
+  /*  	border: 2px solid black;
+  */
 }
 
 .hitting .corehover {
@@ -193,7 +195,8 @@ section.picture {
   left: 48%;
   height: 18%;
   width: 15%;
-  border: 2px solid black;
+  /*  	border: 2px solid black;
+  */
 }
 
 .hitting .picture .info {
@@ -202,7 +205,8 @@ section.picture {
   top: 35%;
   height: auto;
   width: 15%;
-  border: 2px solid black;
+  /*  	border: 2px solid black;
+  */
 }
 
 .hitting .circlearm {
@@ -227,7 +231,8 @@ section.picture {
   left: 44%;
   height: 15%;
   width: 15%;
-  border: 2px solid black;
+  /*  	border: 2px solid black;
+  */
 }
 
 .setting .shouldershover {
@@ -237,7 +242,8 @@ section.picture {
   left: 40%;
   height: 13%;
   width: 16%;
-  border: 2px solid black;
+  /*  	border: 2px solid black;
+  */
 }
 
 .setting .eyeshover {
@@ -247,7 +253,8 @@ section.picture {
   left: 40%;
   height: 9%;
   width: 16%;
-  border: 2px solid black;
+  /*  	border: 2px solid black;
+  */
 }
 
 .setting .picture .info {
@@ -256,7 +263,8 @@ section.picture {
   top: 35%;
   height: auto;
   width: 15%;
-  border: 2px solid black;
+  /*  	border: 2px solid black;
+  */
 }
 
 .setting .circlehands {
@@ -274,56 +282,60 @@ section.picture {
   left: 55%;
 }
 
-.passing .handshover {
+.passing .wristhover {
   z-index: 20;
   position: absolute;
-  top: 22%;
-  left: 44%;
+  top: 80%;
+  left: 58%;
   height: 15%;
-  width: 15%;
-  border: 2px solid black;
+  width: 10%;
+  /*  	border: 2px solid black;
+  */
 }
 
-.passing .shouldershover {
-  z-index: 20;
-  position: absolute;
-  top: 50%;
-  left: 40%;
-  height: 13%;
-  width: 16%;
-  border: 2px solid black;
-}
-
-.passing .eyeshover {
+.passing .bodyhover {
   z-index: 20;
   position: absolute;
   top: 38%;
   left: 40%;
-  height: 9%;
+  height: 12%;
   width: 16%;
-  border: 2px solid black;
+  /*  	border: 2px solid black;
+  */
+}
+
+.passing .kneeshover {
+  z-index: 20;
+  position: absolute;
+  top: 88%;
+  left: 30%;
+  height: 13%;
+  width: 10%;
+  /*  	border: 2px solid black;
+  */
 }
 
 .passing .picture .info {
   position: absolute;
-  left: 26%;
-  top: 35%;
+  right: 26%;
+  top: 15%;
   height: auto;
   width: 15%;
-  border: 2px solid black;
+  /*  	border: 2px solid black;
+  */
 }
 
-.passing .circlehands {
+.passing .circlewrist {
   top: 20%;
   left: 30%;
 }
 
-.passing .circleshoulders {
+.passing .circlebody {
   top: 37%;
-  left: 75%;
+  left: 30%;
 }
 
-.passing .circleeyes {
+.passing .circleknees {
   top: 40%;
   left: 55%;
 }
