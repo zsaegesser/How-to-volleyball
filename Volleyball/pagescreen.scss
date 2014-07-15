@@ -141,8 +141,60 @@ header {
   	top:40%;
   	left:60%;
   }  
+  
 
 
+
+
+
+  .setting .handshover {
+  	z-index: 20;
+  	position: absolute;
+  	top:24%;
+  	left:45%;
+  	height:18%;
+  	width: 8%;
+  	border: 2px solid black;
+  }
+  .setting .shouldershover {
+  	z-index: 20;
+  	position: absolute;
+  	top:64%;
+  	left:50%;
+  	height:18%;
+  	width: 10%;
+  	border: 2px solid black;
+  }
+  .setting .eyeshover {
+  	z-index: 20;
+  	position: absolute;
+  	top:100%;
+  	left:48%;
+  	height:18%;
+  	width: 15%;
+  	border: 2px solid black;
+  }
+.setting .picture .info {
+  	position: absolute;
+  	left:26%;
+  	top:35%;
+  	height:auto;
+  	width: 15%;
+  	border: 2px solid black;
+  }
+
+  .setting .circlehands {
+  	top:40%;
+  	left:30%;
+  }
+  .setting .circleshoulders {
+  	top:37%;
+  	left:45%;
+  }
+  .setting .circleeyes {
+  	top:40%;
+  	left:60%;
+  }  
 
 
 
