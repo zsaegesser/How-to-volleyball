@@ -9,6 +9,8 @@
     <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="reset.css" media="all">
     <link rel="stylesheet" type="text/css" href="pagescreen.css" media="all">
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+
 </head>
 <body class="hitting">
     <header>
@@ -21,13 +23,51 @@
         <h1>How-to Hit</h1>
     </div>
     <section class="picture">
-
+        <div class="info infoarm">
+            <p>A volleyball swing has many components. The wrist motions of the swing is arguably the most important part. The key to the motion is to snap the wrist around the ball. It sounds weird at first, but this snapping motion cause topspin which, when controled, is very powerful.</p>
+        </div>
+        <div class="info infocore">
+        </div>        
+        <div class="info infoshoudler">
+        </div>
+<!--         <div class="info arm">
+        </div> -->
     </section>
     <div class="armhover">
+        <div class="circle circlearm"></div>
     </div>
     <div class="corehover">
+        <div class="circle circlecore"></div>
     </div>
     <div class="shoulderhover">
+        <div class="circle circleshoulder"></div>
     </div>
+
+    <script>
+    $(function() {
+        $('.armhover').hover(function() {
+            $('.circlearm').toggleClass('whenhover');
+        });
+        $('.corehover').hover(function() {
+            $('.circlecore').toggleClass('whenhover');
+        });        
+        $('.shoulderhover').hover(function() {
+            $('.circleshoulder').toggleClass('whenhover');
+        });
+        $('.armhover').click(function() {
+            $('.infoarm').toggleClass('whenclick');
+        });
+        $('.shoulderhover').click(function() {
+            $('.infoshoudler').toggleClass('whenclick');
+        });
+        $('.corehover').click(function() {
+            $('.infocore').toggleClass('whenclick');
+        });
+    });
+
+
+    </script>
+
+
 </body>
 </html>
