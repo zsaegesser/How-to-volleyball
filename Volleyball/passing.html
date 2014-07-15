@@ -24,48 +24,48 @@
     </div>
     <section class="picture">
         <div class="info infowrist">
-           <p></p>
+           <p>The first thing taught in passing a volleyball is the arm and wrist positioning. To pass you want a solid platform for the ball to hit. To do this you put your hands together and bend your wrists back. This tightens up the forearms for a solid platform.</p>
         </div>        
         <div class="info infobody">
-            
+            <p>When passing a volleyball, your body form is very important. It is always better to be square with where you where you want to pass the ball. You also want to stay behind the ball as much as possible. Remember to keep your shoulders above or in front of your feet and keep feet shoulder width apart.</p>
         </div>
         <div class="info infoknees">
-           
+           <p>To pass a ball accurately a passer should only use their legs for the distance of the pass. Never swing your arms to pass a ball! Keep knees bent to keep your body low to the ground.  </p>
         </div>
 
     </section>
-    <div class="handshover">
+    <div class="wristhover">
         <div class="circle circlewrist"></div>
     </div>
-    <div class="shouldershover">
+    <div class="bodyhover">
         <div class="circle circlebody"></div>
     </div>
-    <div class="eyeshover">
+    <div class="kneeshover">
         <div class="circle circleknees"></div>
     </div>
 
     <script>
     $(function() {
 
-        $('.handshover').hover(function() {
+        $('.wristhover').hover(function() {
             $('.circlewrist').toggleClass('whenhover');
         });
-        $('.eyeshover').hover(function() {
+        $('.kneeshover').hover(function() {
             $('.circleknees').toggleClass('whenhover');
         });        
-        $('.shouldershover').hover(function() {
+        $('.bodyhover').hover(function() {
             $('.circlebody').toggleClass('whenhover');
         });
 
-        $('.handshover').click(function() {
+        $('.wristhover').click(function() {
             $('.infowrist').addClass('whenclick');
             $('.infobody, .infoknees').removeClass('whenclick');
         });
-        $('.shouldershover').click(function() {
+        $('.bodyhover').click(function() {
             $('.infobody').addClass('whenclick');
             $('.infowrist, .infoknees').removeClass('whenclick');
         });
-        $('.eyeshover').click(function() {
+        $('.kneeshover').click(function() {
             $('.infoknees').addClass('whenclick');
             $('.infowrist, .infobody').removeClass('whenclick');
         });
