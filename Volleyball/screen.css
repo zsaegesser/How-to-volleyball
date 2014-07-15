@@ -89,6 +89,26 @@ header a {
   padding-top: 10px;
 }
 
+h1 {
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+h2 {
+  padding-left: 5px;
+  font-size: 22px;
+  text-align: left;
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  padding: 8px 10px 8px 13px;
+  line-height: 1.25em;
+}
+
 @media screen and (min-width: 600px) {
   body {
     padding-top: 30px;
@@ -106,26 +126,6 @@ header a {
     max-width: 800px;
     margin: 0 auto;
     padding-top: 20px;
-  }
-
-  h1 {
-    font-size: 26px;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 8px;
-  }
-
-  h2 {
-    padding-left: 5px;
-    font-size: 22px;
-    text-align: left;
-    font-weight: bold;
-  }
-
-  p {
-    font-size: 18px;
-    padding: 8px 10px 8px 13px;
-    line-height: 1.25em;
   }
 }
 @media screen and (max-width: 600px) {
@@ -145,26 +145,6 @@ header a {
     /*max-width: 1200px;*/
     /*margin: 0 auto;*/
     padding-top: 20px;
-  }
-
-  h1 {
-    font-size: 26px;
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 8px;
-  }
-
-  h2 {
-    padding-left: 5px;
-    font-size: 22px;
-    text-align: left;
-    font-weight: bold;
-  }
-
-  p {
-    font-size: 18px;
-    padding: 8px 10px 8px 13px;
-    line-height: 1.25em;
   }
 }
 @media screen and (max-width: 300px) {
