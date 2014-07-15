@@ -215,30 +215,30 @@ section.picture {
 .setting .handshover {
   z-index: 20;
   position: absolute;
-  top: 24%;
-  left: 45%;
-  height: 18%;
-  width: 8%;
+  top: 22%;
+  left: 44%;
+  height: 15%;
+  width: 15%;
   border: 2px solid black;
 }
 
 .setting .shouldershover {
   z-index: 20;
   position: absolute;
-  top: 64%;
-  left: 50%;
-  height: 18%;
-  width: 10%;
+  top: 50%;
+  left: 40%;
+  height: 13%;
+  width: 16%;
   border: 2px solid black;
 }
 
 .setting .eyeshover {
   z-index: 20;
   position: absolute;
-  top: 100%;
-  left: 48%;
-  height: 18%;
-  width: 15%;
+  top: 38%;
+  left: 40%;
+  height: 9%;
+  width: 16%;
   border: 2px solid black;
 }
 
@@ -252,18 +252,18 @@ section.picture {
 }
 
 .setting .circlehands {
-  top: 40%;
+  top: 20%;
   left: 30%;
 }
 
 .setting .circleshoulders {
   top: 37%;
-  left: 45%;
+  left: 75%;
 }
 
 .setting .circleeyes {
   top: 40%;
-  left: 60%;
+  left: 55%;
 }
 
 .whenhover {
