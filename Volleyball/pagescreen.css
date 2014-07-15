@@ -161,7 +161,7 @@ section.picture {
 .picture .info {
   position: absolute;
   left: 26%;
-  top: 50%;
+  top: 35%;
   height: auto;
   width: 15%;
   border: 2px solid black;
@@ -208,5 +208,6 @@ section.picture {
 }
 
 .info p {
-  opacity: 1;
+  opacity: 1 !important;
+  font-weight: bold;
 }
