@@ -569,30 +569,19 @@ section.picture {
     /*border:1px solid black;*/
   }
 
-  .setting .picture .info {
-    top: 140%;
-    width: 100%;
-    opacity: 1;
-  }
-
-  /*    .hitting .picture .info {
-        top: 140%;
-        width:100%;
-        opacity: 1;
-        }*/
-  .hitting img {
+  .hitting img, .setting img, .passing img {
     width: 100%;
   }
-  .hitting .crop {
+  .hitting .crop, .setting .crop, .passing .crop {
     display: block;
   }
-  .hitting .info {
+  .hitting .info, .setting .info, .passing .info {
     display: none;
   }
-  .hitting .picture {
+  .hitting .picture, .setting .picture, .passing .picture {
     display: none;
   }
-  .hitting .circle {
+  .hitting .circle, .setting .circle, .passing .circle {
     display: none;
   }
 

@@ -458,17 +458,8 @@ header {
   		width:14%;
   		/*border:1px solid black;*/
   	}
-    .setting .picture .info {
-      top:140%;
-      width: 100%;
-      opacity: 1;
-    }
-/*    .hitting .picture .info {
-      top: 140%;
-      width:100%;
-      opacity: 1;
-      }*/
-    .hitting {
+    
+    .hitting, .setting, .passing {
       img {
         width:100%;
       }
