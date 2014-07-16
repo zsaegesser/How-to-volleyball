@@ -88,7 +88,7 @@ body {
 h1 {
   margin-bottom: 10px;
   margin-top: 15px;
-  font-size: 26px;
+  font-size: 28px;
   text-align: center;
   font-weight: bold;
   padding-bottom: 8px;
@@ -351,6 +351,10 @@ section.picture {
   opacity: 0.5;
 }
 
+.hitting .crop {
+  display: none;
+}
+
 @media screen and (max-width: 1100px) {
   .passing .picture .info {
     right: 20%;
@@ -530,7 +534,7 @@ section.picture {
     width: 33%;
   }
 }
-@media screen and (max-width: 401px) {
+@media screen and (max-width: 420px) {
   header {
     position: static;
     height: auto;
@@ -571,9 +575,33 @@ section.picture {
     opacity: 1;
   }
 
-  .hitting .picture .info {
-    top: 140%;
+  /*    .hitting .picture .info {
+        top: 140%;
+        width:100%;
+        opacity: 1;
+        }*/
+  .hitting img {
     width: 100%;
-    opacity: 1;
+  }
+  .hitting .crop {
+    display: block;
+  }
+  .hitting .info {
+    display: none;
+  }
+  .hitting .picture {
+    display: none;
+  }
+  .hitting .circle {
+    display: none;
+  }
+
+  h2 {
+    text-align: center;
+    padding: 5px 0 7px 0;
+  }
+
+  p {
+    padding-bottom: 45px;
   }
 }
