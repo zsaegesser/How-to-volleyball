@@ -447,6 +447,23 @@ section.picture {
   .passing .circleknees {
     left: 50%;
   }
+
+  .setting .circleshoulders {
+    top: 60%;
+  }
+
+  .setting .eyeshover {
+    top: 41%;
+  }
+
+  .setting .handshover {
+    top: 26%;
+  }
+
+  .setting .picture .info {
+    left: 15%;
+    width: 20%;
+  }
 }
 @media screen and (max-width: 550px) {
   .passing .picture .info {
@@ -475,6 +492,11 @@ section.picture {
     width: 14%;
     border: 1px solid black;
   }
+
+  .setting .picture .info {
+    left: 2%;
+    width: 30%;
+  }
 }
 @media screen and (max-width: 350px) {
   .passing .picture .info {
@@ -499,5 +521,11 @@ section.picture {
     left: 3%;
     width: 14%;
     border: 1px solid black;
+  }
+
+  .setting .picture .info {
+    top: 140%;
+    width: 100%;
+    opacity: 1;
   }
 }
