@@ -1,7 +1,10 @@
 @import "reset";
 
+$headcolor:#376ba6;
+$atagcolor:#E8E3E7;
+
 header {
-  background-color: #376ba6;
+  background-color: $headcolor;
   width: 100%;
   height:30px;
 }
@@ -27,7 +30,7 @@ header {
     vertical-align: middle;
     margin-left: 10px;
     text-decoration: none;
-    color: #E8E3E7;
+    color: $atagcolor;
     border-bottom: 2px solid white;
     padding-top: 10px;
     }
@@ -47,6 +50,8 @@ header {
    padding-bottom: 12px;
  }
  p {
+  @extend h2;
+  font-weight: normal;
    font-size: 18px;
    padding: 8px 10px 8px 13px;
    line-height:1.27em; 
