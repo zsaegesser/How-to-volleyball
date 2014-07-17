@@ -105,13 +105,23 @@ header {
   .passing section.picture {
   	background-image: url(vbpassing.jpg)
   }
+
+  @mixin positioning($top, $left, $height, $width) {
+    top: $top;
+    left: $left;
+    height: $height;
+    width: $width;
+  }
+
+
   .hitting .armhover {
   	z-index: 20;
   	position: absolute;
-  	top:24%;
+    @include positioning(24%, 45%, 18%, 8%);
+  	/*top:24%;
   	left:45%;
   	height:18%;
-  	width: 8%;
+  	width: 8%;*/
 /*  	border: 2px solid black;
 */  }
   .hitting .shoulderhover {
