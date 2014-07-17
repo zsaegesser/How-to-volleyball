@@ -173,14 +173,7 @@ section.picture {
   left: 45%;
   height: 18%;
   width: 8%;
-  /*top:24%;
-  left:45%;
-  height:18%;
-  width: 8%;*/
-  /*  	border: 2px solid black;
-  */
 }
-
 .hitting .shoulderhover {
   z-index: 20;
   position: absolute;
@@ -188,10 +181,7 @@ section.picture {
   left: 50%;
   height: 18%;
   width: 10%;
-  /*  	border: 2px solid black;
-  */
 }
-
 .hitting .corehover {
   z-index: 20;
   position: absolute;
@@ -199,30 +189,23 @@ section.picture {
   left: 48%;
   height: 18%;
   width: 15%;
-  /*  	border: 2px solid black;
-  */
 }
-
 .hitting .picture .info {
   position: absolute;
-  left: 26%;
-  top: 35%;
+  top: 26%;
+  left: 27%;
   height: auto;
   width: 15%;
-  /*  	border: 2px solid black;
-  */
 }
-
 .hitting .circlearm {
+  /*      @include positioning(40%, 30%);*/
   top: 40%;
   left: 30%;
 }
-
 .hitting .circleshoulder {
   top: 37%;
   left: 45%;
 }
-
 .hitting .circlecore {
   top: 40%;
   left: 60%;

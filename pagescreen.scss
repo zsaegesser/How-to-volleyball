@@ -113,55 +113,42 @@ header {
     width: $width;
   }
 
+  .hitting {
+    .armhover {
+      z-index: 20;
+      position: absolute;
+      @include positioning(24%, 45%, 18%, 8%);
+     }
+    .shoulderhover {
+      z-index: 20;
+      position: absolute;
+      @include positioning(64%, 50%, 18%, 10%);
+    }
+    .corehover {
+      z-index: 20;
+      position: absolute;
+      @include positioning(100%, 48%, 18%, 15%);
+    }
+    .picture .info {
+      position: absolute;
+      @include positioning(26%, 27%, auto, 15%);
+    }
+    .circlearm {
+/*      @include positioning(40%, 30%);*/
+      top:40%;
+      left:30%;
+    }
+    .circleshoulder {
+      top:37%;
+      left:45%;
+    }
+    .circlecore {
+      top:40%;
+      left:60%;
+    }  
+  }
 
-  .hitting .armhover {
-  	z-index: 20;
-  	position: absolute;
-    @include positioning(24%, 45%, 18%, 8%);
-  	/*top:24%;
-  	left:45%;
-  	height:18%;
-  	width: 8%;*/
-/*  	border: 2px solid black;
-*/  }
-  .hitting .shoulderhover {
-  	z-index: 20;
-  	position: absolute;
-  	top:64%;
-  	left:50%;
-  	height:18%;
-  	width: 10%;
-/*  	border: 2px solid black;
-*/  }
-  .hitting .corehover {
-  	z-index: 20;
-  	position: absolute;
-  	top:100%;
-  	left:48%;
-  	height:18%;
-  	width: 15%;
-/*  	border: 2px solid black;
-*/  }
-  .hitting .picture .info {
-  	position: absolute;
-  	left:26%;
-  	top:35%;
-  	height:auto;
-  	width: 15%;
-/*  	border: 2px solid black;
-*/  }
-  .hitting .circlearm {
-  	top:40%;
-  	left:30%;
-  }
-  .hitting .circleshoulder {
-  	top:37%;
-  	left:45%;
-  }
-  .hitting .circlecore {
-  	top:40%;
-  	left:60%;
-  }  
+
   
 
 
